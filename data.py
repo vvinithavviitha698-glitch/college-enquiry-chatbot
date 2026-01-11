@@ -12,5 +12,6 @@ college_info = {
     "events": "We host annual cultural and sports events.",
     "affiliations": "We are affiliated with Bharathiar University.",
     "accreditation": "Our college is accredited by NAAC with a B+ grade.",
-    "timing": "9 AM to 3 PM."
+    "timing": "10 AM to 3 PM."
+
 }
