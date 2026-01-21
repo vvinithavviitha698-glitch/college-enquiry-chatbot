@@ -1,5 +1,5 @@
 def get_response(user_input):
-    user_input = user_input.lower()
+    user_input = user_input.lower() 
 
     if "course" in user_input:
         return "We offer B.Sc, B.Com, B.A and Msc courses."
@@ -48,11 +48,36 @@ def get_response(user_input):
     
     elif "thank you" in user_input or "thanks" in user_input:
         return "You're welcome! If you have any more questions, feel free to ask."
+    
     elif"full form" in user_input:
-        return "Puratchi Thalaivi Amma Government Arts And Science College"
+        return "Puratchi Thalaivi Amma Government Arts And Science College."
 
     elif "hello" in user_input or "hi" in user_input:
         return "Hello! How can I help you?"
+    
+    elif "BSc courses" in user_input:
+        return "BSc Computer Science, BSc Mathematics, BSc Chemistry, BSc Costume design & Fasion."
+    
+    elif "B.Com courses" in user_input:
+        return "B.Com, B.Com Computer Application, B.Com Banking & Insurance."
+    
+    elif "BA courses" in user_input:
+        return "BA Tamil, BA English."
+    
+    elif "MSc courses" in user_input:
+        return "MSc Computer Science."
 
+    elif "student strength" in user_input:
+        return "Our college has a student strength of around 1500+ students."
+    
+    elif "faculty" in user_input:
+        return "we have a expeienced faculty members with a total of 50+ faculty members."
+    
+    elif "placement" in user_input:
+        return "Our college has a dedicated placement cell with a 90% track record in top companies like TCS, Infosys, and Wipro."
+    
+    elif "canteen" in user_input:
+        return "The college canteen provides hygienic and affordable snacks, drinks, & tea/coffee,milk for students and staff."
+    
     else:
         return "Sorry, I didn't understand that. Please ask about courses, fees, admission, contact, or timings."
