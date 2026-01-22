@@ -1,7 +1,7 @@
 def get_response(user_input):
     user_input = user_input.lower() 
 
-    if "ug or pg" in user_input:
+    if "courses" in user_input:
         return "We offer B.Sc, B.Com, B.A and Msc courses."
 
     elif "fee" in user_input or "fees" in user_input:
@@ -55,16 +55,16 @@ def get_response(user_input):
     elif "hello" in user_input or "hi" in user_input:
         return "Hello! How can I help you?"
     
-    elif "Bsc" in user_input:
+    elif "bsc" in user_input:
         return "BSc Computer Science, BSc Mathematics, BSc Chemistry, BSc Costume design & Fasion."
     
-    elif "B.Com " in user_input:
+    elif "b.com " in user_input:
         return "B.Com, B.Com Computer Application, B.Com Banking & Insurance."
     
-    elif "BA" in user_input:
+    elif "ba" in user_input:
         return "BA Tamil, BA English."
     
-    elif "Msc" in user_input:
+    elif "msc" in user_input:
         return "MSc Computer Science."
 
     elif "student strength" in user_input:
@@ -81,3 +81,4 @@ def get_response(user_input):
     
     else:
         return "Sorry, I didn't understand that. Please ask about courses, fees, admission, contact, or timings."
+
