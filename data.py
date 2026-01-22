@@ -1,13 +1,13 @@
 college_info = {
-    "courses":
+    "ug or pg":
     "We offer B.Sc, B.Com, BA, Costume design and Msc.",
-    "BSc courses":
+    "Bsc":
     "BSc Computer Science, BSc Mathematics, BSc Chemistry, BSc Costume design & Fasion.",
-    "B.Com courses":
+    "B.Com":
     "B.Com, B.Com Computer Application, B.Com Banking & Insurance.",
-    "BA courses":
+    "BA":
     "BA Tamil, BA English.",
-    "MSc courses":
+    "MSc":
     "MSc Computer Science.",
     "admission":
     "Admissions are based on councelling and online application.",
@@ -50,3 +50,4 @@ college_info = {
     "canteen":
     "The college canteen provides hygienic and affordable snacks, drinks,& tea/coffee,milk for students and staff."
 }
+
