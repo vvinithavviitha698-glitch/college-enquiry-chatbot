@@ -27,7 +27,7 @@ college_info = {
     "We have well-equipped computer labs and science labs.",
     "sports":
     "We offer facilities for cricket, football, volleyball, Batminton and athletics.",
-    "student strength":
+    "student":
     "Our college has a student strength of around 1500+ students.",
     "faculty":
     "we have a expeienced faculty members with a total of 50+ faculty members.",
@@ -39,7 +39,7 @@ college_info = {
     "Our college is accredited by NAAC with a B+ grade.",
     "timing":
     "10 AM to 3 PM.",
-    "full_name":
+    "fullname":
     "puratchi thalaivi amma government arts and science college.",
     "hii or hello":
     "Hello! How can I help you?",
@@ -50,5 +50,6 @@ college_info = {
     "canteen":
     "The college canteen provides hygienic and affordable snacks, drinks,& tea/coffee,milk for students and staff."
 }
+
 
 
