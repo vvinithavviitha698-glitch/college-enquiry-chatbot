@@ -7,7 +7,7 @@ def get_response(user_input):
     elif "fee" in user_input or "fees" in user_input:
         return "The fee structure depends on the course. Please contact the office."
 
-    elif "average fees" in user_input:
+    elif "average" in user_input:
         return "The average fees for most courses is around ₹7000 to ₹10000 for 3 years."
     
     elif "admission" in user_input:
@@ -49,7 +49,7 @@ def get_response(user_input):
     elif "thank you" in user_input or "thanks" in user_input:
         return "You're welcome! If you have any more questions, feel free to ask."
     
-    elif"full form" in user_input:
+    elif"fullform" in user_input:
         return "Puratchi Thalaivi Amma Government Arts And Science College."
 
     elif "hello" in user_input or "hi" in user_input:
@@ -67,7 +67,7 @@ def get_response(user_input):
     elif "msc" in user_input:
         return "MSc Computer Science."
 
-    elif "student strength" in user_input:
+    elif "student" in user_input:
         return "Our college has a student strength of around 1500+ students."
     
     elif "faculty" in user_input:
@@ -81,4 +81,5 @@ def get_response(user_input):
     
     else:
         return "Sorry, I didn't understand that. Please ask about courses, fees, admission, contact, or timings."
+
 
