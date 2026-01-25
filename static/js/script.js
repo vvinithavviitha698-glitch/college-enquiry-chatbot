@@ -20,3 +20,5 @@ function sendMessage() {
 
     input.value = "";
 }
+
+
