@@ -1,56 +1,27 @@
 college_info = {
-    "courses":
-    "We offer B.Sc, B.Com, BA, Costume design and Msc.",
-    "Bsc":
-    "BSc Computer Science, BSc Mathematics, BSc Chemistry, BSc Costume design & Fasion.",
-    "b.com":
-    "B.Com, B.Com Computer Application, B.Com Banking & Insurance.",
-    "ba":
-    "BA Tamil, BA English.",
-    "msc":
-    "MSc Computer Science.",
-    "admission":
-    "Admissions are based on councelling and online application.",
-    "fees":
-    "The average annual fee ranges for 3 years ₹7,000 to ₹12,000.",
-    "location":
-    "Our college is located in Mangalam Road,Palladam.",
-    "contact":
-    "You can contact us at +91 4255251144 or email principalpalladam@gmail.com",
-    "hostel":
-    "Yes, separate hostel facilities are available for boys and girls",
-    "scholarships":
-    "we provide various scholarships primarily through government schemes.",
-    "library":
-    "Our library has over 2475+ books and journals.",
-    "labs":
-    "We have well-equipped computer labs and science labs.",
-    "sports":
-    "We offer facilities for cricket, football, volleyball, Batminton and athletics.",
-    "student":
-    "Our college has a student strength of around 1500+ students.",
-    "faculty":
-    "we have a expeienced faculty members with a total of 50+ faculty members.",
-    "events":
-    "We host annual cultural and sports events.",
-    "affiliations":
-    "We are affiliated with Bharathiar University.",
-    "accreditation":
-    "Our college is accredited by NAAC with a B+ grade.",
-    "timing":
-    "10 AM to 3 PM.",
-    "fullname":
-    "puratchi thalaivi amma government arts and science college.",
-    "hii":
-    "Hello! How can I help you?",
-    "thank you":
-    "You're welcome! If you have any more questions, feel free to ask.",
-    "placement":
-    "Our college has a dedicated placement cell with a 90% track record in top companies like TCS, Infosys, and Wipro.",
-    "canteen":
-    "The college canteen provides hygienic and affordable snacks, drinks,& tea/coffee,milk for students and staff."
+    ("hai", "hello", "hi"): "Hello! How can I help you?",
+    ("courses",): "We offer B.Sc, B.Com, BA, Costume Design, and M.Sc courses.",
+    ("bsc", "b.sc"): "BSc Computer Science, BSc Mathematics, BSc Chemistry, BSc Costume Design & Fashion.",
+    ("b.com", "b com"): "B.Com, B.Com Computer Application, B.Com Banking & Insurance.",
+    ("ba", "b.a"): "BA Tamil, BA English.",
+    ("msc", "m.sc"): "MSc Computer Science.",
+    ("admission",): "Admissions are based on online application and merit.",
+    ("fee", "fees", "average fee", "average fees"): "The average fees for most courses are around ₹7,000 to ₹12,000 for 3 years.",
+    ("contact",): "You can contact us at +91-04255-251144 or email principalpalladam@gmail.com.",
+    ("hostel",): "Yes, we have separate hostel facilities available for boys and girls.",
+    ("location", "address"): "Our college is located on Mangalam Road, Palladam.",
+    ("timing", "time"): "College timing is 10:00 AM to 3:00 PM.",
+    ("scholarship", "scholarships"): "We provide various scholarships primarily through government schemes.",
+    ("library",): "Our library has over 2475+ books and journals.",
+    ("labs", "laboratories"): "We have well-equipped computer and science labs.",
+    ("sports",): "We offer facilities for cricket, football, volleyball, badminton, and athletics.",
+    ("events",): "We host annual cultural and sports events.",
+    ("affiliation", "affiliations"): "We are affiliated with Bharathiar University.",
+    ("accreditation",): "Our college is accredited by NAAC with a B+ grade.",
+    ("fullform", "full form", "full name"): "Puratchi Thalaivi Amma Government Arts and Science College.",
+    ("thanks", "thank you"): "You're welcome! If you have any more questions, feel free to ask.",
+    ("students", "student strength"): "Our college has a student strength of around 1500+ students.",
+    ("faculty", "staff"): "We have experienced faculty members with a total of 50+ faculty members.",
+    ("placement",): "Our college has a dedicated placement cell with a 90% track record in top companies like TCS, Infosys, and Wipro.",
+    ("canteen",): "The college canteen provides hygienic and affordable snacks, drinks, tea/coffee, and milk for students and staff."
 }
-
-
-
-
