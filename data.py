@@ -41,7 +41,7 @@ college_info = {
     "10 AM to 3 PM.",
     "fullname":
     "puratchi thalaivi amma government arts and science college.",
-    "hii or hello":
+    "hii":
     "Hello! How can I help you?",
     "thank you":
     "You're welcome! If you have any more questions, feel free to ask.",
@@ -50,6 +50,7 @@ college_info = {
     "canteen":
     "The college canteen provides hygienic and affordable snacks, drinks,& tea/coffee,milk for students and staff."
 }
+
 
 
 
