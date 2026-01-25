@@ -1,10 +1,18 @@
 function sendMessage() {
-    let input = document.getElementById("user-input");
-    let message = input.value;
+    const input = document.getElementById("user-input");
+    const chatBox = document.getElementById("chat-box");
 
-    if (message.trim() === "") {
+    // SAFETY CHECK
+    if (!input || !chatBox) {
+        console.error("HTML element not found");
         return;
     }
+
+    const message = input.value.trim();
+    if (message === "") return;
+
+    // Show user message
+    chatBox.innerHTML += `<div class="user">${message}</div>`;
 
     fetch("/chat", {
         method: "POST",
@@ -13,12 +21,16 @@ function sendMessage() {
         },
         body: JSON.stringify({ message: message })
     })
-    .then(response => response.json())
+    .then(res => res.json())
     .then(data => {
-        document.getElementById("response").innerText = data.reply;
+        chatBox.innerHTML += `<div class="bot">${data.reply}</div>`;
+        chatBox.scrollTop = chatBox.scrollHeight;
+    })
+    .catch(err => {
+        console.error(err);
+        chatBox.innerHTML += `<div class="bot">Error occurred</div>`;
     });
 
     input.value = "";
 }
-
 
