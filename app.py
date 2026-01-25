@@ -8,10 +8,10 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-
 @app.route("/chat", methods=["POST"])
 def chat():
-    user_message = request.json["message"].lower()
+    data = request.get_json()
+    user_message = data.get("message", "").lower()
 
     for key in college_info:
         if key in user_message:
@@ -22,4 +22,3 @@ def chat():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
-
